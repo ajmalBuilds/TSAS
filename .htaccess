@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Redirect http to https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect /index or /index.html to root
+RewriteRule ^index$ / [R=301,L]
+RewriteRule ^index.html$ / [R=301,L]
+
+# Redirect requests for files without .html to .html files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)/?$ $1.html [L]
+
+# Redirect .html URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Custom error documents
+ErrorDocument 403 /error-pages/403.html
+ErrorDocument 404 /error-pages/404.html
+ErrorDocument 500 /error-pages/500.html
+
+# Ensure no rules are blocking access
+Options +Indexes

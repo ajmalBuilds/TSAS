@@ -325,14 +325,14 @@
   const mainContent = document.getElementById('bearer-content');
 
   const contentFiles = {
-    electionCommissioner: '/election-commissioner.html',
-    deputyElectionCommissioner: '/deputy-election-Commissioner.html',
-    returningOfficer: '/returning-officer.html'
+    electionCommissioner: 'election-commissioner.html',
+    deputyElectionCommissioner: 'deputy-election-Commissioner.html',
+    returningOfficer: 'returning-officer.html'
    
     // Add more content files as needed
   };
 
-    let currentPage = 'president';
+    let currentPage = 'electionCommissioner';
   function loadContent(url) {
     fetch(url)
       .then(response => response.text())

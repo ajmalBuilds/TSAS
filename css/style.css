@@ -911,7 +911,7 @@ main{
 .press-card{
     width: 370px;
     height: 180px;
-    background: #ffffff;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
@@ -919,7 +919,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    transition: background 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
     color: #000;
     word-wrap: break-word;
     white-space: normal;
@@ -1070,7 +1070,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    cursor: pointer;
     text-align: center; 
     color: #fff;
     box-sizing: border-box;

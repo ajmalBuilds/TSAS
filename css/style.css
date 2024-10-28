@@ -51,7 +51,6 @@ nav {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: ;
     align-items: center;
     
 }
@@ -107,7 +106,6 @@ nav {
     left: 0; /* Slide in when open */
 }
 .header-logo{
-    width: ;
     height: 95%;
     display: flex;
     align-items: center;
@@ -159,7 +157,6 @@ nav {
 }
 .menu-item{
     width: 100%;
-    height: ;
     border-bottom: 1px solid grey;
     transition: color 0.3s ease-in-out;
 }
@@ -194,7 +191,6 @@ nav {
 .treeview{
     width: 100%;
     max-height: 0;
-    background: #;
     overflow: hidden;
     transition: max-height 0.6s ease-out;
 }
@@ -358,7 +354,6 @@ main{
     height: 100%;
     background: url('../assets/banner/banner_bg_volunteer.jpg') no-repeat;
     background-size: cover; 
-    background-position: ;
 }
 .header-inner{
     width: 100%;
@@ -415,7 +410,6 @@ main{
     border-bottom: 2px solid rgb(167, 189, 210);
 }
 .scrollable-container{
-    width: ;
     height: 75px;
     overflow-x: auto;
     white-space: nowrap;
@@ -453,7 +447,6 @@ main{
     font-family: Roboto, Arial, sans-serif;
     text-decoration: none;
     color: #252525;
-    opacity: ;
     font-weight: 500;
     transition: 0.3s ease all;
     position: relative;
@@ -520,8 +513,7 @@ main{
     }
 }
 .bearers-description-container{
-    width: 100%;
-    height: ;    
+    width: 100%;   
 }
 .bearers-content-wrapper h4,
 .wc-content-wrapper h4{
@@ -613,7 +605,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
 }
 .subscribe-heading{
     width: 100%;
@@ -898,7 +889,6 @@ main{
 
 .press-releases-container{
     width: 100vw;
-    height: ;
     background: #ffffff;
     display: flex;
     flex-wrap: wrap;
@@ -952,7 +942,6 @@ main{
     gap: 20px;
 }
 #pagination{
-    width: ; 
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1335,7 +1324,6 @@ iframe{
 .key-issues-card .key-issue-img{
     width: 100%;
     height: 60%;
-    background: ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1421,7 +1409,6 @@ iframe{
     
 }
 .achievements-card-container{
-    width: ;
     height: 285px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -1502,7 +1489,6 @@ iframe{
     margin: 30px 0 25px 20px;
 }
 .inspiration-container .inspiration-card-container{
-    width: ;
     height: 365px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -1611,7 +1597,6 @@ iframe{
 }
 footer{
     width: 100vw;
-    height: ;
 }
 .footer-content{
     width: 100%;
@@ -1662,8 +1647,7 @@ footer{
     margin-top: 40px; 
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
-    background: ;    
+    gap: 25px;   
         
 }
 .footer-panel h4{
@@ -1676,10 +1660,8 @@ footer{
 .col{
     width: 175px;
     height: 300px;
-    background: ;
     display: flex;
     flex-direction: column;
-    justify-content: ;
     gap: 15px;
 }
 .col-5{
